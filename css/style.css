@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+	background-image: url("../images/Waxom-Hemepage_01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*menu*/
+.navbar-header a span {
+  font-size: 34px;
+  color: rgb( 255, 255, 255 );
+  text-align: right;
+}
+.navbar-nav > li a:hover {
+  transition: 1s;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 255, 255, 255 );
+  text-align: left;
+}
+
+.dropdown:hover > .dropdown-menu { 
+  display: block;
+}
+/*_______carousel______________*/
+.carousel {
+  padding: 0 0 100px 0;
+}
+
+.carousel-inner .item {
+  overflow: hidden;
+  height: 400px;
+
+}
+
+.carousel-inner .item img {
+  display: block;
+  margin: 0 auto;
+  width: 40%; 
+  height: auto; 
+  border-radius: 25px;
+}
+.carousel-inner .item:nth-child(2) img {
+  width: 25%;
+}
+.carousel-inner .item:nth-child(3) img {
+  width: 30%;
+}
+.carousel-inner .item:nth-child(4) img {
+  width: 50%;
+}
+.carousel-inner .item img:hover {
+ -webkit-filter: grayscale(100%);
+ filter: grayscale(100%);
+ transition: 1s;
+}
+
+a.btn-default {
+  transition: 1s;
+}
+
+.carousel-inner .item,span {
+  font-size: 36px;
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+}
+
+.carousel-inner .item,p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.5;
+  text-align: center;
+}
+/*__________end of carousel___________*/
+/*___________________main__________________*/
+main .row {
+  margin-top: 80px;
+}
+h1 {
+  font-size: 30px;
+  color: rgb( 85, 85, 85 );
+  font-weight: bold;
+  text-align: center;
+}
+
+main .row,span {
+  font-size: 22px;
+  color: rgb( 199, 178, 153 );
+  font-weight: bold;
+  text-align: center;
+}
+
+main .row,p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 140, 140, 140 );
+  line-height: 1.714;
+  text-align: center;
+}
+/*----------------latest_projects-----------*/
+#latest-projets img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+}
+
+#latest-projets img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
+
+main h2 {
+  font-size: 30px;
+  color: rgb( 85, 85, 85 );
+  font-weight: bold;
+  text-align: center;
+}
+
+main span {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb( 140, 140, 140 );
+  line-height: 1.75;
+  text-align: center;
+}
+
+.latest_projects p {
+  font-size: 16px;
+  font-family: "Montserrat" ;
+  color: rgb( 140, 140, 140 );
+  line-height: 1.75;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-group1 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-group1,.btn {
+  margin: 10px;
+}
+
+#singlebutton {
+  background-color: #998675;
+  color:#fff;
+  text-transform: uppercase;
+  border-radius: 2px solid #7c6653;
+}
+
+#singlebutton:hover {
+  background-color: #7c6653;
+}
+/*_______video_____________*/
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+/*________Video-Presentation_______________*/
+.Video-Presentation {
+ background-image: url('../images/Waxomvid_02.jpg');
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 700px;
+}
+
+.Video-Presentation .Video-cont h2 {
+  font-size: 30px;
+  color: rgb( 255, 255, 255 );
+  text-align: center;
+}
+
+.Video-Presentation .Video-cont p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.75;
+}
+
+.Video-Presentation .Video-cont p:nth-child(4) {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 199, 178, 153 );
+  line-height: 1.714;
+  text-align: center;
+}
+
+.Video-Presentation .Video-cont {
+  background-image: -moz-linear-gradient   ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+  background-image: -ms-linear-gradient    ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+  background-image: -o-linear-gradient    ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.fa-play-circle-o {
+  color: #fff;
+  cursor: pointer;
+}
+/*________end Video-Presentation_______________*/
+/*----------mobile-devices----------------*/
+h3 {
+  font-size: 30px;
+  color: rgb( 85, 85, 85 );
+  font-weight: bold;
+  text-align: left;
+  cursor: auto;
+}
+main .mobile-devices .row{
+  margin-top: 20px;
+  background-image: url("../images/hand.png");
+  background-repeat: no-repeat;
+  background-position:left;
+  background-size: contain;
+
+}
+
+main .mobile-devices #mob-text p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb( 140, 140, 140 );
+  line-height: 1.75;
+  text-align: left;
+  cursor: auto;
+
+}
+
+main .mobile-devices #mob-text img{
+  width: 99%;
+  height: auto;
+  
+}
+
+main .mobile-devices #mob-text ul li {
+  font: 14px "Trebuchet MS", "Lucida Sans";
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  list-style: none;
+  text-align: left;
+}
+
+.rounded {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+.rounded a {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb( 140, 140, 140 );
+  line-height: 1.75;
+  text-align: left;
+  position: relative;
+  display: block;
+  padding: .1em .1em .1em 1em;
+  margin: .7em 0;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+}
+
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  color: #39393d;
+  background: #c7b299;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+/*__________counters_____________*/
+.counters {
+  background: -moz-linear-gradient   ( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background: -ms-linear-gradient    ( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background: -o-linear-gradient     ( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  padding: 60px 0;
+}
+
+.counters .container {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+}
+
+.satisfied,.cups,.blog,.likes,.lunched {
+  text-align: center;
+  cursor: pointer;
+}
+
+.satisfied p,.cups p,.blog p,.likes p,.lunched p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 199, 178, 153 );
+  text-transform: uppercase;
+  line-height: 1.429;
+  text-align: center;
+}
+
+.satisfied span,.cups span,.blog span,.likes span,.lunched span  {
+  font-size: 48px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: rgb( 255, 255, 255 );
+  line-height: 0.75;
+  text-align: center;
+}
+
+/*____________partners________________*/
+.partners {
+  background-image: url('../images/Waxom7_02.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part {
+ background: -moz-linear-gradient   ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+ background: -webkit-linear-gradient( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+ background: -ms-linear-gradient    ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+ background: -o-linear-gradient        ( 0deg, rgba(33,27,25,0.5) 0%, rgba(78,52,39,0.5) 100%);
+}
+
+.partners .part img {
+  padding: 10px 0;
+  max-width: 100%;
+  display: inline-block;
+}
+/*___________footer______________*/
+footer .container{
+  padding: 50px 0;
+}
+
+.copyright {
+  background-image: -moz-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(25,25,25) 0%, rgb(25,25,25) 100%);
+  z-index: 3;
+}
+
+.copyright p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb( 85, 85, 85 );
+  line-height: 1.714;
+  text-align: left;
+  z-index: 9;
+  padding: 20px 0;
+}
+
+#recent-posts p {
+  border-bottom: 1px solid rgb( 89, 95, 111 );
+}
+
+#dribble .row {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dribble img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+ padding: 5px;
+}
+
+#dribble img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
+
+.copyright_bot{
+  background-color: rgb( 17, 17, 17);
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: transparent;
+}
+
+header {
+	position: relative;
+}
+
+#particles {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  z-index: 1;
+}
+
+#myCarousel {
+	z-index: 2;
+}
+
+.navbar-default{
+	z-index: 3;
+}
+/*_______320px__________*/
+.navbar-toggle.navbar-left {
+  float: left; 
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) { 
+  .counters .container>div{
+    padding:0 10px;
+  }
+  .counters .container{
+    justify-content: center;
+
+  }
+  main .mobile-devices .row{
+    background-image: none;
+    padding:0 12px;
+  }
+  .carousel-inner .item {
+    height: auto;
+    padding: 0;
+  }
+}
+@media (max-width: 1024px) { 
+  .carousel-inner .item {
+    height: 380px;
+    padding-top: 100px;
+  }
+}
